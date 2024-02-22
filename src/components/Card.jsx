@@ -17,9 +17,10 @@ function Card({ id, title, rating, price, img, className, addToCart }) {
 
 				<div className='flex justify-between items-center mt-6'>
 					<p className='font-bold'>${price}</p>
+
 					<BsCartPlus
 						onClick={handleClick}
-						className='cursor-pointer size-7 text-gray-500 hover:text-green-500 ease-in duration-100'
+						className='cursor-pointer size-7 text-gray-500 hover:text-green-600 ease-in duration-100'
 					/>
 				</div>
 			</div>
